@@ -1,0 +1,19 @@
+{
+  "model": "Neural Bag-of-Embeddings (Deep Averaging Network): trainable embedding + mean pool + MLP",
+  "embed_dim": 150,
+  "hidden_dim": 128,
+  "dropout": 0.6,
+  "num_classes": 2,
+  "vocab_size": 8503,
+  "min_freq": 2,
+  "epochs": 30,
+  "batch_size": 16,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0005,
+  "optimizer": "Adam",
+  "loss": "class-weighted CrossEntropyLoss",
+  "random_state": 42,
+  "train_rows": 240,
+  "cv_accuracy": 0.6541666666666666,
+  "public_test_accuracy": 0.5975
+}
